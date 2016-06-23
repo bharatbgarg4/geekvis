@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="@drawable/card_select_bgrnd"
+        card_view:cardUseCompatPadding="true"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="15dp"
+        android:id="@+id/carddetail"
+        card_view:cardElevation="2dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:layout_width="52dp"
+                android:layout_height="52dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/user"
+                android:id="@+id/imgstudent" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name of student"
+                android:textStyle="bold"
+                android:id="@+id/txtnamestudent"
+                android:layout_marginTop="5dp"
+                android:layout_alignTop="@+id/imgstudent"
+                android:layout_toRightOf="@+id/imgstudent"
+                android:layout_toEndOf="@+id/imgstudent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgstudent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Status of student"
+                android:id="@+id/txtstatus"
+                android:layout_margin="14dp"/>
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtstatus"
+                android:visibility="gone"
+                android:id="@+id/imgstatus"
+                android:layout_margin="5dp"
+                />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imglikepost"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_below="@id/imgstatus"
+                android:src="@drawable/likepost"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="12"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="55dp"
+                android:layout_below="@id/imgstatus"
+                android:id="@+id/txtnlikepost"/>
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:id="@+id/imgcommpost"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="90dp"
+                android:layout_below="@id/imgstatus"
+                android:src="@drawable/commentpost"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="12"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="118dp"
+                android:layout_below="@id/imgstatus"
+                android:id="@+id/txtncommpost"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imglikepost"
+                android:text="UPVOTE"
+                android:id="@+id/txtlikepost"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="30dp"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imglikepost"
+                android:text="COMMENT"
+                android:id="@+id/txtcomment"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="100dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imglikepost"
+                android:text="SHARE"
+                android:id="@+id/txtsharepost"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="185dp"/>
+
+
+        </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

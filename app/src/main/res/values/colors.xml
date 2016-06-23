@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorControlActivated">#000000</color>
+    <color name="colorActivatedHighlight">#000000</color>
+    <color name="textColor">#f6ae3c</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#11A51C</color>
+    <color name="blue">#0095F4</color>
+    <color name="multic">#0366FF</color>
+    <color name="appcolor">#303F9F</color>
+    <color name="deepOrange">#FF5722</color>
+    <color name="lightgrey">#D3D3D3</color>
+    <color name="opPrimaryDark">#9B000000</color>
+
+</resources>

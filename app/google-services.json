@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97862423965",
+    "project_id": "geekvis-56140"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97862423965:android:be686909cf6fab23",
+        "android_client_info": {
+          "package_name": "com.mindvis.geekvis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97862423965-upku6rsi5h2bn93c4su8j31ic8psb79m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindvis.geekvis",
+            "certificate_hash": "F8184D34892EF64BE0CBF62AFE890D29F80BE706"
+          }
+        },
+        {
+          "client_id": "97862423965-7qubra6ucl9bh17l3ckh4kta7r01paup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQtaQBt99lMs-sjFpjOtNKfuAMeMLywpA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
